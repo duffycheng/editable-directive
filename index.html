@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="ediableDirective">
+<head>
+	<meta charset="utf-8">
+	<title>Editable Directive</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+	<h1>Editable Directive</h1> 
+	<h3>Click "Edit" button to edit the content</h3>
+		 <div class="container" make-editable> 
+		  <p tabindex="0">Content that will become editable when the directive rendered. </p>
+		 </div>
+		  <div class="container" make-editable>
+		  <p  tabindex="0">This is the second filed to be edit. Content is in the p tag</p>
+		 </div>
+</section>
+
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
