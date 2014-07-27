@@ -1,4 +1,5 @@
 editable-directive
 ==================
 Thankful AngulaerJS course assignment.
-3-1-5 Editable Item Directive
+
+Unit 3, Lesson1, Assignment 5 - Editable Item Directive
