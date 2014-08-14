@@ -6,6 +6,7 @@ describe("Test Pages", function() {
 		browser.get(ROOT);
 		expect(element.all(by.css('.editable')).count()).toBe(2);
 	});
+	//this code only test the first set
 	it("click Edit/Save button will switch editable state",function(){
 		var editable = element(by.css('.editable p'));
 		var button = element(by.css('.button'));
